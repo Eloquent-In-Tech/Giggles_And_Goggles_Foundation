@@ -1,6 +1,7 @@
 import React from 'react'
 import hero from '../../assets/hurlingham2.jpg'
-import './font.css'; 
+import Card from './card'
+
 
 function HomeHero() {
   return (
@@ -21,7 +22,7 @@ function HomeHero() {
                 Details on how to do so and other useful information can be found on these pages.
                 </h3>
             </div>
-
+            <Card/>
 
         </div>
     </div>
