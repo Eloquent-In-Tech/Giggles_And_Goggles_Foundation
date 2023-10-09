@@ -2,6 +2,15 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@font-face {
+  font-family: 'Gill Sans Light';
+  src: url('/path/to/your-font.woff2') format('woff2'),
+       url('/path/to/your-font.woff') format('woff');
+  /* Add other font formats and sources as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /* 
 :root {

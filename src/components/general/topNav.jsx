@@ -12,7 +12,7 @@ function TopNav() {
         </div>
         <div className="flex flex-col items-center ">
             <span className="bg-blue-600 py-2 px-6 text-white mb-2 ml-[400px] hover:bg-blue-400 hover:cursor-pointer">Login</span>
-            <input type="text" placeholder="Search" className="bg-slate-300 py-2 px-10 ml-[200px] text-black font-bold"/>
+            <input type="text" placeholder="Search" className="bg-slate-300 py-2 px-10 ml-[200px] text-black font-medium"/>
         </div>
     </div>
 

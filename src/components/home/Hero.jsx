@@ -1,5 +1,6 @@
 import React from 'react'
 import hero from '../../assets/hurlingham2.jpg'
+import './font.css'; 
 
 function HomeHero() {
   return (
