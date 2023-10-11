@@ -67,6 +67,13 @@ function Footer() {
                     <a href="#termsOfUse"><ul className="ml-[105px] hover:text-blue-400 hover:cursor-pointer hover:underline">TERMS OF USE</ul></a>
                 </div>
             </div>
+            <div>
+                <h1 className="text-gray-600 mt-[80px]">
+                THE HURLINGHAM CLUB, RANELAGH GARDENS, LONDON, SW6 3PR | MAIN RECEPTION: 020 7610 7400 | 
+                MEMBERSHIP OFFICE: 020 7610 7467 | SPORTS OFFICE: 020 7610 7500 | FITNESS CENTRE RECEPTION: 
+                020 7610 7483 | FOOD AND BEVERAGE QUERIES AND BOOKINGS: 020 7610 7518 | EVENTS: 020 7610 7526
+                </h1>
+            </div>
       </div>
 
     )
