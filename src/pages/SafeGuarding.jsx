@@ -1,19 +1,16 @@
 import React from 'react'
 import TopNav from '../components/general/topNav'
-import HomeHero from '../components/home/Hero'
 import Footer from '../components/general/Footer'
-import HomeCard from '../components/home/HomeCard'
+import HeroSafeGuard from '../components/safeguard/HeroSafeGuard'
 
-
-function Home() {
+function SafeGuarding() {
   return (
     <div>
         <TopNav/>
-        <HomeHero/>
-        <HomeCard/>
+        <HeroSafeGuard/>
         <Footer/>
     </div>
-  )
+      )
 }
 
-export default Home
+export default SafeGuarding

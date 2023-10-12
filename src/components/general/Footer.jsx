@@ -8,9 +8,6 @@ function Footer() {
     return (
     
         <div className="h-[600px]  w-full bg-slate-300">
-            <div className="h-[150px] w-[150px] bg-gray-100 rounded-full absolute top-[1350px] left-[600px]">
-                <img className=" bottom-[5px] left-[200px] w-[250px]  p-[20px]" src={logo} alt="logo" />
-            </div>
             <div className='flex flex-col-4 space-x-[180px]  text-gray-500 '>
                 {footerData.map((data, index)=>{
               return(
@@ -68,7 +65,7 @@ function Footer() {
                 </div>
             </div>
             <div>
-                <h1 className="text-gray-600 mt-[80px]">
+                <h1 className="text-gray-600 mt-[90px]">
                 THE HURLINGHAM CLUB, RANELAGH GARDENS, LONDON, SW6 3PR | MAIN RECEPTION: 020 7610 7400 | 
                 MEMBERSHIP OFFICE: 020 7610 7467 | SPORTS OFFICE: 020 7610 7500 | FITNESS CENTRE RECEPTION: 
                 020 7610 7483 | FOOD AND BEVERAGE QUERIES AND BOOKINGS: 020 7610 7518 | EVENTS: 020 7610 7526

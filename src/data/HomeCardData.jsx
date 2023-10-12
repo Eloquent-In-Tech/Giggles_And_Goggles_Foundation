@@ -1,4 +1,4 @@
-export const cardData = [
+export const HomeCardData = [
     {
         title: "ABOUT",
         link: "about#",

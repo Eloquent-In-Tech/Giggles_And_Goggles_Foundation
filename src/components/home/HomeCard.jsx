@@ -1,10 +1,10 @@
 import React from 'react'
-import { cardData } from '../../data/CardData'
+import { HomeCardData } from "../../data/HomeCardData";
 
-function Card() {
+function HomeCard() {
   return (
     <div className='flex flex-col-4 space-x-[30px] pt-[20px] ml-[130px] mb-[100px]'>
-        {cardData.map((data, index)=>{
+        {HomeCardData.map((data, index)=>{
             return(
                 <div key={index} className='h-[300px] w-[250px] mt-[20px]'>
                     <a href={data.link}>
@@ -19,4 +19,4 @@ function Card() {
   )
 }
 
-export default Card
+export default HomeCard
