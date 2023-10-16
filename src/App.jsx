@@ -8,10 +8,9 @@ import SafeGuarding from './pages/SafeGuarding';
 import HurlinghamFoundation from './pages/HurlinghamFoundation';
 import Weddings from './pages/Weddings';
 import Corporate from './pages/Corporate';
+import Christmas from './pages/Christmas';
 
 function App() {
-
-
   return (
     <>
       <Router>
@@ -22,6 +21,7 @@ function App() {
       <Route path="/the-hurlingham-foundation" element={<HurlinghamFoundation/>} />
       <Route path="/weddings" element={<Weddings/>} />
       <Route path="/corporate-charity-and-awards" element={<Corporate/>} />
+      <Route path="/christmas" element={<Christmas/>} />
     </Routes>
   </Router>
     </>
