@@ -9,6 +9,7 @@ import HurlinghamFoundation from './pages/HurlinghamFoundation';
 import Weddings from './pages/Weddings';
 import Corporate from './pages/Corporate';
 import Christmas from './pages/Christmas';
+import Summer from './pages/Summer';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       <Route path="/weddings" element={<Weddings/>} />
       <Route path="/corporate-charity-and-awards" element={<Corporate/>} />
       <Route path="/christmas" element={<Christmas/>} />
+      <Route path="/summer" element={<Summer/>} />
+      <Route path="frequently-asked-questions" element={<Summer/>} />
+      /
     </Routes>
   </Router>
     </>
