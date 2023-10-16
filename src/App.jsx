@@ -7,6 +7,7 @@ import Sustainability from './pages/Sustainability';
 import SafeGuarding from './pages/SafeGuarding';
 import HurlinghamFoundation from './pages/HurlinghamFoundation';
 import Weddings from './pages/Weddings';
+import Corporate from './pages/Corporate';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Route path="/safeguarding-hurlingham" element={<SafeGuarding/>} />
       <Route path="/the-hurlingham-foundation" element={<HurlinghamFoundation/>} />
       <Route path="/weddings" element={<Weddings/>} />
+      <Route path="/corporate-charity-and-awards" element={<Corporate/>} />
     </Routes>
   </Router>
     </>

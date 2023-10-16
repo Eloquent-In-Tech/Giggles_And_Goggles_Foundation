@@ -43,7 +43,7 @@ function TopNav() {
         label="EVENTS"
         subMenuLinks={[
           { label: 'WEDDINGS', url: '/weddings' },
-          { label: 'CORPORATE, CHARITY & AWARDS', url: '/corporate-charity-&-awards' },
+          { label: 'CORPORATE, CHARITY & AWARDS', url: '/corporate-charity-and-awards' },
           { label: 'CHRISTMAS', url: '/christmas' },
           { label: 'SUMMER', url: '/summer' },
           { label: 'PRIVATE EVENTS FORM', url: '/private-events-form' },

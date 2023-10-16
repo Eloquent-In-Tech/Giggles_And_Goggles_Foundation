@@ -3,7 +3,7 @@ export const WeddingCardData = [
         title: "TAKE A VIRTUAL TOUR ",
         link: "sustainability-at-hurlingham#",
         image: "../src/assets/weddings/virtualTour.jpg",
-        view: "VIEW"
+        view: "VIEW OUR ROOMS"
     },
 ]
 export const WeddingPictures = [
