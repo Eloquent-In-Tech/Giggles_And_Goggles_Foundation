@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Sustainability from './pages/Sustainability';
 import SafeGuarding from './pages/SafeGuarding';
 import HurlinghamFoundation from './pages/HurlinghamFoundation';
+import Weddings from './pages/Weddings';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Route path="/sustainability" element={<Sustainability/>} />
       <Route path="/safeguarding-hurlingham" element={<SafeGuarding/>} />
       <Route path="/the-hurlingham-foundation" element={<HurlinghamFoundation/>} />
+      <Route path="/weddings" element={<Weddings/>} />
     </Routes>
   </Router>
     </>
