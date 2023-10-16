@@ -1,5 +1,6 @@
 import React from 'react'
 import { WeddingCardData } from '../../data/WeddingData'
+import awards from "../../assets/weddings/awards.png"
 
 
 function WeddingCard() {
@@ -18,7 +19,11 @@ function WeddingCard() {
                 )
             })}
             
+            
         </div>
+        <div className='flex justify-center'>
+                <img src={awards} alt="..." className=' h-[300px]  mb-[30px]' />
+            </div>
     </div>
   )
 }
