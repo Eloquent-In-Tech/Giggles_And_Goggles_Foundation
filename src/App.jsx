@@ -10,6 +10,7 @@ import Weddings from './pages/Weddings';
 import Corporate from './pages/Corporate';
 import Christmas from './pages/Christmas';
 import Summer from './pages/Summer';
+import Faq from './pages/Faq';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       <Route path="/corporate-charity-and-awards" element={<Corporate/>} />
       <Route path="/christmas" element={<Christmas/>} />
       <Route path="/summer" element={<Summer/>} />
-      <Route path="frequently-asked-questions" element={<Summer/>} />
+      <Route path="/frequently-asked-questions" element={<Faq/>} />
+      
       /
     </Routes>
   </Router>
