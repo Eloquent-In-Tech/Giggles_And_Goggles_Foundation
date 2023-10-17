@@ -13,6 +13,7 @@ import Summer from './pages/Summer';
 import Faq from './pages/Faq';
 import Rooms from './pages/Rooms';
 import PrivateEventsForm from './pages/PrivateEventsForm';
+import StayInTouch from './pages/StayInTouch';
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       <Route path="/frequently-asked-questions" element={<Faq/>} />
       <Route path="/rooms" element={<Rooms/>} />
       <Route path="/private-events-form" element={<PrivateEventsForm/>} />
-      
+      <Route path="/stay-in-touch" element={<StayInTouch/>} />
+    
     </Routes>
   </Router>
     </>
