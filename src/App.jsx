@@ -11,6 +11,7 @@ import Corporate from './pages/Corporate';
 import Christmas from './pages/Christmas';
 import Summer from './pages/Summer';
 import Faq from './pages/Faq';
+import Rooms from './pages/Rooms';
 
 function App() {
   return (
@@ -26,8 +27,8 @@ function App() {
       <Route path="/christmas" element={<Christmas/>} />
       <Route path="/summer" element={<Summer/>} />
       <Route path="/frequently-asked-questions" element={<Faq/>} />
+      <Route path="/rooms" element={<Rooms/>} />
       
-      /
     </Routes>
   </Router>
     </>

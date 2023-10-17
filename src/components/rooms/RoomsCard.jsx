@@ -1,12 +1,10 @@
 import React from 'react'
 import { WeddingCardData } from '../../data/WeddingData'
-import awards from "../../assets/weddings/awards.png"
 
-
-function WeddingCard() {
+function RoomsCard() {
   return (
     <div>
-        <div className='flex flex-col space-x-[50px] pt-[20px] ml-[570px] mb-[100px]'>
+         <div className='flex flex-col space-x-[50px] pt-[20px] ml-[570px] mb-[100px]'>
             {WeddingCardData.map((data, index)=>{
                 return(
                     <div key={index} className='h-[300px] w-[250px] mt-[0px]'>
@@ -18,14 +16,9 @@ function WeddingCard() {
                     </div>
                 )
             })}
-            
-            
-        </div>
-        <div className='flex justify-center'>
-                <img src={awards} alt="..." className=' h-[300px]  mb-[30px]' />
         </div>
     </div>
   )
 }
 
-export default WeddingCard
+export default RoomsCard
