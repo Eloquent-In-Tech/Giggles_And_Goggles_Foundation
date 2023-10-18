@@ -14,6 +14,8 @@ import Faq from './pages/Faq';
 import Rooms from './pages/Rooms';
 import PrivateEventsForm from './pages/PrivateEventsForm';
 import StayInTouch from './pages/StayInTouch';
+import MapsAndDirection from './pages/MapsAndDirection';
+import CleanAirProgramme from './pages/CleanAirProgramme';
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
       <Route path="/rooms" element={<Rooms/>} />
       <Route path="/private-events-form" element={<PrivateEventsForm/>} />
       <Route path="/stay-in-touch" element={<StayInTouch/>} />
+      <Route path="/hurlingham-maps-and-directions" element={<MapsAndDirection/>} />
+      <Route path="/clean-air-neighbourhood-programme" element={<CleanAirProgramme/>} />
     
     </Routes>
   </Router>
