@@ -18,6 +18,7 @@ import MapsAndDirection from './pages/MapsAndDirection';
 import CleanAirProgramme from './pages/CleanAirProgramme';
 import About from './pages/About';
 import Events from './pages/Events';
+import ContactUs from './pages/ContactUs';
 
 function App() {
   return (
@@ -40,7 +41,7 @@ function App() {
       <Route path="/clean-air-neighbourhood-programme" element={<CleanAirProgramme/>} />
       <Route path="/about" element={<About/>} />
       <Route path="/events" element={<Events/>} />
-    
+      <Route path="/contact-us" element={<ContactUs/>} />
     </Routes>
   </Router>
     </>
