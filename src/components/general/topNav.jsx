@@ -27,7 +27,9 @@ function TopNav() {
   };
   return (
     <div className="flex items-center justify-between  py-2 px-6">
-    <img src={logo} alt="logo" className="h-24 w-24 font-semibold" />
+      <Link to={"/"}>
+        <img src={logo} alt="logo" className="h-24 w-24 font-semibold" />
+      </Link>
     <div className="flex items-center space-x-[200px] ml-[50px]">
       <MenuItem 
         label="ABOUT"

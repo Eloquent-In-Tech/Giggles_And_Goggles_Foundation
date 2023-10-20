@@ -17,6 +17,7 @@ import StayInTouch from './pages/StayInTouch';
 import MapsAndDirection from './pages/MapsAndDirection';
 import CleanAirProgramme from './pages/CleanAirProgramme';
 import About from './pages/About';
+import Events from './pages/Events';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
       <Route path="/hurlingham-maps-and-directions" element={<MapsAndDirection/>} />
       <Route path="/clean-air-neighbourhood-programme" element={<CleanAirProgramme/>} />
       <Route path="/about" element={<About/>} />
+      <Route path="/events" element={<Events/>} />
     
     </Routes>
   </Router>
