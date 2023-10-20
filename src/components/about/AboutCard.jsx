@@ -1,9 +1,10 @@
 import React from 'react'
 import { AboutData } from "../../data/aboutData"
+import logo from '../../assets/Hurlingham_logo.png'
 
 function AboutCard() {
   return (
-    <div className='flex flex-col-4 space-x-[30px] pt-[20px] ml-[290px] mb-[100px]'>
+    <div className='flex flex-col-4 space-x-[30px] pt-[20px] ml-[290px] mb-[170px]'>
         {AboutData.map((data, index)=>{
             return(
                 <div key={index} className='h-[300px] w-[250px] mt-[20px]'>
@@ -15,6 +16,9 @@ function AboutCard() {
                 </div>
             )
         })}
+        <div className="h-[140px] w-[140px] bg-gray-100 rounded-full absolute top-[1395px] left-[600px]">
+            <img className=" bottom-[5px] left-[200px] w-[250px]  p-[20px]" src={logo} alt="logo" />
+        </div>
     </div>
   )
 }

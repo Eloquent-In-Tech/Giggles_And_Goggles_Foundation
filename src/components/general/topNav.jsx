@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import logo from '../../assets/Hurlingham_logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom'; 
 
 
 function TopNav() {
@@ -30,6 +31,7 @@ function TopNav() {
     <div className="flex items-center space-x-[200px] ml-[50px]">
       <MenuItem 
         label="ABOUT"
+        mainMenuLink="/about"
         subMenuLinks={[
           { label: 'SUSTAINABILITY', url: '/sustainability' },
           { label: 'SAFEGUARDING HURLINGHAM', url: '/safeguarding-hurlingham' },
@@ -41,6 +43,7 @@ function TopNav() {
       />
       <MenuItem
         label="EVENTS"
+        mainMenuLink="/events"
         subMenuLinks={[
           { label: 'WEDDINGS', url: '/weddings' },
           { label: 'CORPORATE, CHARITY & AWARDS', url: '/corporate-charity-and-awards' },
@@ -57,6 +60,7 @@ function TopNav() {
       />
       <MenuItem className=""
         label="CONTACT US"
+        mainMenuLink="/contact-us"
         subMenuLinks={[
           { label: 'HURLINGHAM MAP & DIRECTIONS', url: '/hurlingham-maps-and-directions' },
           { label: 'CLEAN AIR NEIGHBOURHOOD PROGRAMME', url: '/clean-air-neighbourhood-programme' },
@@ -81,16 +85,16 @@ function TopNav() {
 );
 }
 
-function MenuItem({ label, subMenuLinks, menuState, onMouseEnter, onMouseLeave }) {
+function MenuItem({ label, subMenuLinks, mainMenuLink, menuState, onMouseEnter, onMouseLeave }) {
 return (
   <div
     onMouseEnter={onMouseEnter}
     onMouseLeave={onMouseLeave}
   >
     <h3 className="text-lg mt-2 font-semibold ">
-      <span className=" hover:text-slate-500 hover:underline hover:cursor-pointer ">
+      <Link to={mainMenuLink} className=" hover:text-slate-500 hover:underline hover:cursor-pointer ">
         {label}
-      </span>
+      </Link>
       {menuState && (
         <div className="flex flex-col absolute bg-slate-200 text-base font-medium p-4">
           {subMenuLinks.map((link) => (
