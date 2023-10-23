@@ -19,6 +19,7 @@ import CleanAirProgramme from './pages/CleanAirProgramme';
 import About from './pages/About';
 import Events from './pages/Events';
 import ContactUs from './pages/ContactUs';
+import Career from './pages/Career';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
       <Route path="/about" element={<About/>} />
       <Route path="/events" element={<Events/>} />
       <Route path="/contact-us" element={<ContactUs/>} />
+      <Route path="/career" element={<Career/>} />
     </Routes>
   </Router>
     </>
