@@ -44,24 +44,24 @@ function Footer() {
             </div> */}
             <div className="flex flex-row space-x-[35px] text-gray-600 mt-[30px] ml-[20px] ">
                 <div className="space-x-[5px] ml-[35px] ">
-                    <a href="#aboutHurlingham"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">ABOUT HURLINGHAM</ul></a>
-                    <a href="#sustainability"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">SUSTAINABILITY</ul></a>
-                    <a href="#safeguarding"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">SAFEGUARDING</ul></a>
-                    <a href="#thehurlinghamclubfoundation"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">THE HURLINGHAM CLUB FOUNDATION</ul></a>
+                    <a href="/about"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">ABOUT HURLINGHAM</ul></a>
+                    <a href="/sustainability"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">SUSTAINABILITY</ul></a>
+                    <a href="/safeguarding-hurlingham"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">SAFEGUARDING</ul></a>
+                    <a href="/the-hurlingham-foundation"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">THE HURLINGHAM CLUB FOUNDATION</ul></a>
                 </div>
                 <div className="">
-                    <a href="#privateEvents"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">PRIVATE EVENTS</ul></a>
+                    <a href="/events"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">PRIVATE EVENTS</ul></a>
                 </div>
                 <div className="ml-[90px] space-x-[-5px]">
-                    <a href="#contactTheClub"><ul className="ml-[85px] hover:text-blue-400 hover:cursor-pointer hover:underline">CONTACT THE CLUB</ul></a>
-                    <a href="#map&directions"><ul className="ml-[85px] hover:text-blue-400 hover:cursor-pointer hover:underline">MAP & DIRECTIONS</ul></a>
-                    <a href="#instagram"><ul className="ml-[85px] hover:text-blue-400 hover:cursor-pointer hover:underline">INSTAGRAM</ul></a>
+                    <a href="/contact-us"><ul className="ml-[85px] hover:text-blue-400 hover:cursor-pointer hover:underline">CONTACT THE CLUB</ul></a>
+                    <a href="hurlingham-maps-and-directions"><ul className="ml-[85px] hover:text-blue-400 hover:cursor-pointer hover:underline">MAP & DIRECTIONS</ul></a>
+                    <a href="https://www.instagram.com/hurlinghamevents/"><ul className="ml-[85px] hover:text-blue-400 hover:cursor-pointer hover:underline">INSTAGRAM</ul></a>
                 </div>
                 <div>
-                    <a href="#opportunities"><ul className="ml-[90px] hover:text-blue-400 hover:cursor-pointer hover:underline">OPPORTUNITIES</ul></a>
+                    <a href="/career"><ul className="ml-[90px] hover:text-blue-400 hover:cursor-pointer hover:underline">OPPORTUNITIES</ul></a>
                 </div>
                 <div>
-                    <a href="#termsOfUse"><ul className="ml-[105px] hover:text-blue-400 hover:cursor-pointer hover:underline">TERMS OF USE</ul></a>
+                    <a href="/terms-of-use"><ul className="ml-[105px] hover:text-blue-400 hover:cursor-pointer hover:underline">TERMS OF USE</ul></a>
                 </div>
             </div>
             <div>
