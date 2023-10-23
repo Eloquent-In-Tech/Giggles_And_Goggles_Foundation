@@ -20,6 +20,7 @@ import About from './pages/About';
 import Events from './pages/Events';
 import ContactUs from './pages/ContactUs';
 import Career from './pages/Career';
+import TermsOfUse from './pages/TermsOfUse';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
       <Route path="/events" element={<Events/>} />
       <Route path="/contact-us" element={<ContactUs/>} />
       <Route path="/career" element={<Career/>} />
+      <Route path="/terms-of-use" element={<TermsOfUse/>} />
     </Routes>
   </Router>
     </>
