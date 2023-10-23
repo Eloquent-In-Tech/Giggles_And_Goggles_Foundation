@@ -10,7 +10,7 @@ function ContactHero() {
         </div>
         <div>
             <h3 className=' text-4xl text-gray-600 mb-[10px]'>CONTACT THE HURLINGHAM CLUB</h3>
-            <h4 className='text-gray-600 mb-[50px] ml-[250px] mr-[250px]'> 
+            <h4 className='text-gray-600 mb-[50px] ml-[300px] mr-[250px]'> 
             The Hurlingham Club, Ranelagh Gardens, London, SW6 3PR <br /> <br />
             
             <span className='text-blue-500 hover:underline hover:text-blue-300 hover:cursor-pointer'>Main Reception </span>| main.reception@hurlinghamclub.org.uk | 020 7610 7400 <br className='mb-[10px]' />
