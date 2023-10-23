@@ -13,7 +13,7 @@ function CareerHero() {
                 AN INSIGHT INTO WORKING AT THE CLUB
                 </h3> 
                 <h3 className=' text-center text-xl mt-[20px] text-slate-700'> 
-                Filmed in 2019
+                    Filmed in 2019
                 </h3>
             </div>
             
