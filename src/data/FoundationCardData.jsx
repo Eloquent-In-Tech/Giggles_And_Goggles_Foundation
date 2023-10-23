@@ -1,7 +1,7 @@
 export const FoundationCardData = [
     {
         title: "DONATE",
-        link: "donate#",
+        link: "https://www.justgiving.com/hurlinghamclub",
         image: "../src/assets/foundation/donate.jpg",
         view: "DONATE"
     }
