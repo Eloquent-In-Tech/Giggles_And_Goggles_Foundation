@@ -22,6 +22,7 @@ import ContactUs from './pages/ContactUs';
 import Career from './pages/Career';
 import TermsOfUse from './pages/TermsOfUse';
 import SustainAtHurlingham from './pages/SustainAtHurlingham';
+import EnvironmentalHurlingham from './pages/EnvironmentalHurlingham';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
       <Route path="/career" element={<Career/>} />
       <Route path="/terms-of-use" element={<TermsOfUse/>} />
       <Route path="/sustainability-at-hurlingham" element={<SustainAtHurlingham/>} />
+      <Route path="/environmental-hurlingham" element={<EnvironmentalHurlingham/>} />
     </Routes>
   </Router>
     </>
