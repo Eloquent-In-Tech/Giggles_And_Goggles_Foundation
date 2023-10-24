@@ -1,7 +1,7 @@
 export const SustainabilityCardData = [
     {
         title: "SUSTAINABILITY AT HURLINGHAM ",
-        link: "sustainability-at-hurlingham#",
+        link: "sustainability-at-hurlingham",
         image: "../src/assets/sustainability/cardSustainability.jpg",
         view: "VIEW"
     },
