@@ -37,7 +37,7 @@ function MapHero() {
               <br className='mb-[5px]' />
               <h1 className=' font-extralight'>
                 Please note, the Clean Air Neighbourhood Programme when driving throughout the borough around 
-                the Club. Full details can be found  <span className=' text-blue-500 hover:underline hover:text-blue-400'>here </span>. From Sunday 23 July, Wandsworth Bridge will be closed 
+                the Club. Full details can be found  <a href="/clean-air-neighbourhood-programme"><span className=' text-blue-500 hover:underline hover:text-blue-400 hover:cursor-pointer'>here </span></a>. From Sunday 23 July, Wandsworth Bridge will be closed 
                 for 10 weeks. Please use an alternative route to reach the Club. More information can be found 
                 on the <span className=' text-blue-500 hover:underline hover:text-blue-400'>Council's website.</span> 
               </h1>

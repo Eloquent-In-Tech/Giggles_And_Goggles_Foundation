@@ -1,7 +1,10 @@
 import React from 'react'
 import hero from '../../assets/weddings/weddingsHero.jpg'
 
+
 function HeroWedding() {
+
+
   return (
     <div>
         <div>
@@ -19,8 +22,8 @@ function HeroWedding() {
             Every part of your special day will be entirely tailored to your specific needs and requirements, 
             allowing you to relax and enjoy each moment. <br className='mb-[15px]' />
             To contact our dedicated events team to find out more about holding your wedding at The Hurlingham 
-            Club, please <a href="contact-us" className='text-blue-500 hover:underline hover:text-blue-300'>click here.</a> <br />
-            <a href="#hire-space" className=' text-blue-500 hover:underline hover:text-blue-300'>Hire Space's ultimate wedding venue finding guide</a>
+            Club, please <a href="/private-events-form" className='text-blue-500 hover:underline hover:text-blue-300' >click here.</a> <br />
+            <a href="https://hirespace.com/blog/the-ultimate-guide-to-finding-the-perfect-wedding-venue-in-london?domain=hirespace.com" className=' text-blue-500 hover:underline hover:text-blue-300' >Hire Space's ultimate wedding venue finding guide</a>
             </h4>
         </div>
     </div>

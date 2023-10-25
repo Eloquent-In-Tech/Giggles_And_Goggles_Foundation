@@ -1,7 +1,7 @@
 export const WeddingCardData = [
     {
         title: "TAKE A VIRTUAL TOUR ",
-        link: "sustainability-at-hurlingham#",
+        link: "https://my.matterport.com/show/?m=ULfjxCr4c19",
         image: "../src/assets/weddings/virtualTour.jpg",
         view: "VIEW OUR ROOMS"
     },

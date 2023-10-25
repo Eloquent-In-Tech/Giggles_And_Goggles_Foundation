@@ -22,7 +22,7 @@ function SummerHero() {
             the Club by boat.  <br className='mb-[5px]' />
             <br />
             The Hurlingham Club feels like a summer country escape in the heart of Fulham, catering for up to 1200 guests. <br className='mb-[45px]'/>
-                <a href="#host-christmas" className=' text-blue-500 hover:underline hover:text-blue-400'>Please click here to enquire about hosting your Christmas event at The Hurlingham Club </a>
+                <a href="/private-events-form" className=' text-blue-500 hover:underline hover:text-blue-400'>Please click here to enquire about hosting your Christmas event at The Hurlingham Club </a>
             </h4>
         </div>
     </div>

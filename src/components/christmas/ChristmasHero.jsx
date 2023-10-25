@@ -18,7 +18,7 @@ function ChristmasHero() {
             your requirements whether it is a drinks reception or an elaborate formal private dinner 
             and dancing, giving you and your guests a night to remember.  <br className='mb-[5px]' />
             <br />
-                <a href="#host-christmas" className=' text-blue-500 hover:underline hover:text-blue-400'>Please click here to enquire about hosting your Christmas event at The Hurlingham Club </a>
+                <a href="/private-events-form" className=' text-blue-500 hover:underline hover:text-blue-400'>Please click here to enquire about hosting your Christmas event at The Hurlingham Club </a>
             </h4>
         </div>
     </div>

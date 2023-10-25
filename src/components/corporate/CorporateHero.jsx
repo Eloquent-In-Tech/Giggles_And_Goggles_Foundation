@@ -19,7 +19,7 @@ function CorporateHero() {
             The venue can also be accessed by car, boat or helicopter. VIPs feel at ease in this secluded venue, 
             with guest-list entry and on-site security as standard. <br className='mb-[15px]' />
             <br />
-                <a href="#hire-space" className=' text-blue-500 hover:underline hover:text-blue-400'>Please click here to enquire about hosting your event at The Hurlingham Club</a>
+                <a href="/private-events-form" className=' text-blue-500 hover:underline hover:text-blue-400'>Please click here to enquire about hosting your event at The Hurlingham Club</a>
             </h4>
         </div>
     </div>
