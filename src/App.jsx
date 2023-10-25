@@ -25,6 +25,7 @@ import SustainAtHurlingham from './pages/SustainAtHurlingham';
 import EnvironmentalHurlingham from './pages/EnvironmentalHurlingham';
 import RegisterInterest from './pages/RegisterInterest';
 import VisionsAndVaues from './pages/VisionsAndVaues';
+import PrivacyNotice from './pages/PrivacyNotice';
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
       <Route path="/environmental-hurlingham" element={<EnvironmentalHurlingham/>} />
       <Route path="/register-interest" element={<RegisterInterest/>} />
       <Route path="/visions-and-values" element={<VisionsAndVaues/>} />
+      <Route path="/privacy-notice" element={<PrivacyNotice/>} />
     </Routes>
   </Router>
     </>

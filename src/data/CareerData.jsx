@@ -19,13 +19,13 @@ export const CareerData = [
     },
     {
         title: "GENDER PAY GAP",
-        link: "#https://www.instagram.com/hurlinghamvenue/",
+        link: "https://gender-pay-gap.service.gov.uk/Employer/dPZknAKX",
         image: "../src/assets/career/careerCard4.jpg",
         view: "VIEW"
     },
     {
         title: "PRIVACY NOTICE",
-        link: "#https://www.instagram.com/hurlinghamvenue/",
+        link: "/privacy-notice",
         image: "../src/assets/career/careerCard5.jpg",
         view: "VIEW"
     },
