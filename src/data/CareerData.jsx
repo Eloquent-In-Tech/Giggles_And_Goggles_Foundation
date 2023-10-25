@@ -7,7 +7,7 @@ export const CareerData = [
     },
     {
         title: "REGISTER INTEREST",
-        link: "#https://www.instagram.com/hurlinghamvenue/",
+        link: "/register-interest",
         image: "../src/assets/career/careerCard3.jpg",
         view: "VIEW"
     },
