@@ -13,7 +13,7 @@ export const CareerData = [
     },
     {
         title: "VISIONS AND VALUES",
-        link: "#https://www.instagram.com/hurlinghamvenue/",
+        link: "/visions-and-values",
         image: "../src/assets/career/careerCard1.jpg",
         view: "VIEW"
     },

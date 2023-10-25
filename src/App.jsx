@@ -24,6 +24,7 @@ import TermsOfUse from './pages/TermsOfUse';
 import SustainAtHurlingham from './pages/SustainAtHurlingham';
 import EnvironmentalHurlingham from './pages/EnvironmentalHurlingham';
 import RegisterInterest from './pages/RegisterInterest';
+import VisionsAndVaues from './pages/VisionsAndVaues';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
       <Route path="/sustainability-at-hurlingham" element={<SustainAtHurlingham/>} />
       <Route path="/environmental-hurlingham" element={<EnvironmentalHurlingham/>} />
       <Route path="/register-interest" element={<RegisterInterest/>} />
+      <Route path="/visions-and-values" element={<VisionsAndVaues/>} />
     </Routes>
   </Router>
     </>
