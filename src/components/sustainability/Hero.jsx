@@ -1,10 +1,12 @@
 import React from 'react'
 import heroSustainability from "../../assets/sustainability/SustainabilityHero.jpg"
 import logo from '../../assets/Hurlingham_logo.png'
+import SustainNavBar from './SustainNavBar'
 
 function SustainabilityHero() {
   return (
     <div className='h-[850px]  w-full pl-[50px] pr-[50px] bg-zinc-100'>
+      <SustainNavBar/>
         <div className='w-full '>
             <img src={heroSustainability} alt="hero" className='h-[500px] w-[1400px] pt-[30px]' />
 
