@@ -1,9 +1,11 @@
 import React from 'react'
 import hero from "../../assets/events/eventsHero.png"
+import EventsNavBar from './EventsNavBar'
 
 function EventsHero() {
   return (
     <div>
+      <EventsNavBar/>
         <div>
             <img src={hero} alt="..." className='h-[450px] w-full  mb-[40px] p-[20px]'/>
         </div>
