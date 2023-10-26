@@ -1,9 +1,11 @@
 import React from 'react'
 import hero from "../../assets/about/AboutHero.jpg"
+import AboutNavBar from './AboutNavBar'
 
 function AboutHero() {
   return (
     <div className='h-[850px]  w-full pl-[50px] pr-[50px] bg-zinc-100'>
+      <AboutNavBar/>
         <div className='w-full '>
             <img src={hero} alt="hero" className='h-[500px] w-[1400px] pt-[30px]' />
 
