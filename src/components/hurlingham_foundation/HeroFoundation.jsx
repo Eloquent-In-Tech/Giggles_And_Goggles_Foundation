@@ -1,9 +1,11 @@
 import React from 'react'
 import hero from "../../assets/foundation/HurlingFoundation.png"
+import FoundationNavBar from './FoundationNavBar'
 
 function HeroFoundation() {
   return (
     <div>
+      <FoundationNavBar/>
         <div>
             <img src={hero} alt="..." className='h-[300px] ml-[530px] mt-[100px] mb-[40px]'/>
         </div>
