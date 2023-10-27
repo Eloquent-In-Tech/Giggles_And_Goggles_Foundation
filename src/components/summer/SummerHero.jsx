@@ -1,10 +1,12 @@
 import React from 'react'
 import hero from "../../assets/summer/summerHero.jpg"
+import SummerNavBar from './SummerNavBar'
 
 
 function SummerHero() {
   return (
     <div>
+      <SummerNavBar/>
         <div>
         <div>
             <img src={hero} alt="..." className='h-[450px] w-full  mb-[40px]'/>
