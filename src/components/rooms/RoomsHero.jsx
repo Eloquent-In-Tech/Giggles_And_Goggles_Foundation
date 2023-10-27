@@ -1,9 +1,11 @@
 import React from 'react'
 import hero from "../../assets/rooms/rooms.jpg"
+import RoomNavBar from './RoomNavBar'
 
 function RoomsHero() {
   return (
     <div>
+      <RoomNavBar/>
         <div>
             <img src={hero} alt="..." className='h-[450px] w-full  mb-[40px]'/>
         </div>
