@@ -1,10 +1,12 @@
 import React from 'react'
 import hero from "../../assets/faq/faqHero.jpg"
 import logo from '../../assets/Hurlingham_logo.png'
+import FaqNavBar from './FaqNavBar'
 
 function HeroFaq() {
   return (
     <div>
+        <FaqNavBar/>
         <div>
             <img src={hero} alt="..." className='h-[500px] mt-[10px] mb-[40px]'/>
         </div>
