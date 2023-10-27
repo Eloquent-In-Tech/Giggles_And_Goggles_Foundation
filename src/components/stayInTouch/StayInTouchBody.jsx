@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import logo from '../../assets/Hurlingham_logo.png'
+import StayInTouchNavBar from './StayInTouchNavBar';
 
 function StayInTouchBody() {
     const [email, setEmail] = useState('');
@@ -16,6 +17,7 @@ function StayInTouchBody() {
 
   return (
     <div className='h-[900px] w-full bg-[#f8f8f8] '>
+        <StayInTouchNavBar/>
         <div className=''>
             <h1 className='text-4xl pt-[50px] mb-[40px]'>STAY IN TOUCH</h1>
             <h3 className='text-2xl mb-[100px]'>Be the first to hear about news and offers at The Hurlingham Club. </h3>
