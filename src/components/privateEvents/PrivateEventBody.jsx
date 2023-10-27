@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import logo from '../../assets/Hurlingham_logo.png'
+import PrivateEventsNavBar from './PrivateEventsNavBar';
 
 
 
@@ -25,6 +26,7 @@ function PrivateEventBody() {
     }
   return (
     <div className='h-[1100px] w-full bg-[#f8f8f8] '>
+        <PrivateEventsNavBar/>
         <div className=''>
             <div>
                 <label htmlFor="Title" className='text-2xl mr-[150px]'>Title</label>
