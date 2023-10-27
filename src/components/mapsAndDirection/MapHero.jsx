@@ -2,10 +2,12 @@ import React from 'react'
 import hero from "../../assets/mapsAndDirections/map.jpg"
 import Maps from './Maps'
 import logo from '../../assets/Hurlingham_logo.png'
+import MapNavBar from './MapNavBar'
 
 function MapHero() {
   return (
     <div>
+      <MapNavBar/>
         <div>
         <div>
             <img src={hero} alt="..." className='h-[450px] w-full  mb-[px]'/>
