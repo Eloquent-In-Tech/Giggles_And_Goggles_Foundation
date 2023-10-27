@@ -1,5 +1,6 @@
 import React from 'react'
 import hero from '../../assets/weddings/weddingsHero.jpg'
+import WeddingNavBar from './WeddingNavBar'
 
 
 function HeroWedding() {
@@ -7,6 +8,7 @@ function HeroWedding() {
 
   return (
     <div>
+      <WeddingNavBar/>
         <div>
             <img src={hero} alt="..." className='h-[450px] w-full  mb-[40px]'/>
         </div>
