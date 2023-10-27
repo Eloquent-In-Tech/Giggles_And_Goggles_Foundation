@@ -1,10 +1,12 @@
 import React from 'react'
 import terms from "../../assets/terms_of_use/termsHero.jpg"
 import logo from '../../assets/Hurlingham_logo.png'
+import TermsNavBar from './TermsNavBar'
 
 function TermsHero() {
   return (
     <div className='h-[3050px]  w-full pl-[50px] pr-[50px] bg-zinc-100 text-lg'>
+      <TermsNavBar/>
         <div className='w-full '>
             <img src={terms} alt="hero" className='h-[500px] w-[1400px] pt-[30px]' />
 
