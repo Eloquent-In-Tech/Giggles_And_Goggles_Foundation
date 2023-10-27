@@ -5,10 +5,12 @@ import clean from "../../assets/cleanAir/rivertheme.jpeg"
 import airclean from "../../assets/cleanAir/rivertheme2.jpeg"
 import last from "../../assets/cleanAir/rivertheme3.png"
 import logo from '../../assets/Hurlingham_logo.png'
+import CleanAirNavBar from './CleanAirNavBar'
 
 function CleanAirHero() {
   return (
       <div className='text-gray-600'>
+        <CleanAirNavBar/>
           <div>
               <img src={hero} alt="..." className='h-[450px] w-full  mb-[40px]'/>
           </div>
