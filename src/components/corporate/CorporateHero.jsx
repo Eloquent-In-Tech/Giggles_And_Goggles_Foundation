@@ -1,9 +1,11 @@
 import React from 'react'
 import hero from "../../assets/corporate/CorporateHero.jpg"
+import CorporateNavBar from './CorporateNavBar'
 
 function CorporateHero() {
   return (
     <div>
+      <CorporateNavBar/>
         <div>
             <img src={hero} alt="..." className='h-[450px] w-full  mb-[40px]'/>
         </div>
