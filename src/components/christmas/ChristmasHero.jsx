@@ -12,7 +12,7 @@ function ChristmasHero() {
         <div>
             <h3 className=' text-4xl text-gray-600 mb-[40px] mt-[70px] tracking-widest'>CHRISTMAS EVENTS</h3>
             <h4 className='text-gray-600 mb-[50px] ml-[250px] mr-[250px]'> 
-            Every year, The Hurlingham Club decorates the traditional Clubhouse and stunning, 
+            Every year, The Giggles and Gogglees Foundation decorates the traditional Clubhouse and stunning, 
             contemporary event space with twinkling lights, baubles and a towering Christmas tree.  
             <br className='mb-[5px]' />
             The Club offers bespoke Christmas packages, enabling you to create your festive event to 

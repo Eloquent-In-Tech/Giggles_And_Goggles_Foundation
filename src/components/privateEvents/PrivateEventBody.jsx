@@ -52,7 +52,7 @@ function PrivateEventBody() {
             </div>
             <div>
                 <label for="myCheckbox" class="flex items-center">
-                <span className="ml-[400px] text-2xl" >Are you a member of <br />The Hurlingham Club?</span>
+                <span className="ml-[400px] text-2xl" >Are you a member of <br />Giggles and Goggles?</span>
                 <input type="checkbox" id="myCheckbox" name="myCheckbox" class="form-checkbox text-indigo-600 h-5 w-5"/>
                 
                 </label>
