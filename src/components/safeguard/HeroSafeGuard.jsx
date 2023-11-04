@@ -14,7 +14,7 @@ function HeroSafeGuard() {
                 <h2 className=' text-3xl mt-[30px] text-slate-700'>
                 SAFEGUARDING</h2>
                 <h3 className=' text-lg text-left mt-[20px] text-slate-700'>
-                The Hurlingham Club is committed to prioritising the well-being of all children and young 
+                The Giggles and Goggles Foundation is committed to prioritising the well-being of all children and young 
                 people at risk by promoting safeguarding at all times, including sporting and social events
                 as well as the Hurlingham Crèche. The Club strives to minimise risk, deliver a safe and fun 
                 experience for everyone, and respond appropriately to all safeguarding concerns/disclosures. <br /> <br />
@@ -39,7 +39,7 @@ function HeroSafeGuard() {
                 are non-professional ‘helpers’ and will usually be members of the Club. 
                 </h3> 
                 <h2 className=' text-3xl mt-[30px] text-slate-700'>
-                HURLINGHAM CLUB PROCEDURES</h2>
+                GIGGLES AND GOGGLES FOUNDATION PROCEDURES</h2>
                 <h3 className=' text-left text-lg mt-[20px] text-slate-700'> 
                 Disclosure and Barring Service (DBS) Checks <br /> <br />
                 As an organisation using the DBS to assess applicants’ suitability for positions of trust, 
