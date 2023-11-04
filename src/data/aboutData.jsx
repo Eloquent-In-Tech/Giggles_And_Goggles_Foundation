@@ -12,7 +12,7 @@ export const AboutData = [
         view: "VIEW"
     },
     {
-        title: "THE HURLINGHAM FOUNDATION",
+        title: "THE  FOUNDATION",
         link: "/the-hurlingham-foundation",
         image: "../src/assets/about/foundation.jpg",
         view: "VIEW"

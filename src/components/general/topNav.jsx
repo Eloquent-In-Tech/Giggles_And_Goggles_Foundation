@@ -36,8 +36,8 @@ function TopNav() {
         mainMenuLink="/about"
         subMenuLinks={[
           { label: 'SUSTAINABILITY', url: '/sustainability' },
-          { label: 'SAFEGUARDING HURLINGHAM', url: '/safeguarding-hurlingham' },
-          { label: 'THE HURLINGHAM FOUNDATION', url: '/the-hurlingham-foundation' },
+          { label: 'SAFEGUARDING GIGGLES AND GOGGLES', url: '/safeguarding-hurlingham' },
+          { label: 'THE GIGGLES AND GOGGLES FOUNDATION', url: '/the-hurlingham-foundation' },
         ]}
         menuState={menuStates.about}
         onMouseEnter={() => handleMouseEnter('about')}
@@ -64,7 +64,7 @@ function TopNav() {
         label="CONTACT US"
         mainMenuLink="/contact-us"
         subMenuLinks={[
-          { label: 'HURLINGHAM MAP & DIRECTIONS', url: '/hurlingham-maps-and-directions' },
+          { label: 'MAP & DIRECTIONS', url: '/hurlingham-maps-and-directions' },
           { label: 'CLEAN AIR NEIGHBOURHOOD PROGRAMME', url: '/clean-air-neighbourhood-programme' },
         ]}
          menuState={menuStates.contact}

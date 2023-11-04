@@ -11,9 +11,9 @@ function AboutHero() {
 
             <div className='w-[1000px] ml-[150px]'>            
                 <h2 className=' text-4xl mt-[100px] text-slate-700'>
-                WELCOME TO THE HURLINGHAM CLUB</h2>
+                WELCOME TO THE GIGGLES AND GOGGLES FOUNDATION</h2>
                 <h3 className=' text-center text-xl mt-[20px] text-slate-700'>
-                The Hurlingham Club is a green oasis of tradition and international renown bordering the River 
+                The Giggles and Goggles Foundation is a green oasis of tradition and international renown bordering the River 
                 Thames in Fulham set in 42 acres of magnificent grounds.
                 </h3> 
                 <h3 className=' text-center text-xl mt-[20px] text-slate-700'> 
