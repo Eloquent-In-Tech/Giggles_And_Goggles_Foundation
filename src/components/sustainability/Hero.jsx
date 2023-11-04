@@ -14,7 +14,7 @@ function SustainabilityHero() {
                 <h2 className=' text-4xl mt-[100px] text-slate-700'>
                 SUSTAINABILITY</h2>
                 <h3 className=' text-center text-xl mt-[20px] text-slate-700'>
-                The Club supports a broad sustainability programme both on site and in its outreach. 
+                The Foundation supports a broad sustainability programme both on site and in its outreach. 
                 During a difficult year in 2020, due to the pandemic resulting in a national lockdown, 
                 our programme successfully expanded to include meals prepared by our furloughed chefs for 
                 donation to the Felix Project, London’s charity against food waste and hunger. In addition to this, 
