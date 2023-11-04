@@ -20,7 +20,7 @@ function StayInTouchBody() {
         <StayInTouchNavBar/>
         <div className=''>
             <h1 className='text-4xl pt-[50px] mb-[40px]'>STAY IN TOUCH</h1>
-            <h3 className='text-2xl mb-[100px]'>Be the first to hear about news and offers at The Hurlingham Club. </h3>
+            <h3 className='text-2xl mb-[100px]'>Be the first to hear about news and offers at The Giggles and Goggles Foundation. </h3>
             <div className=' ml-[1px]'>
                 <label htmlFor="First Name" className='text-xl mr-[600px]'>Full Name</label><br />
                 <input type="text" className='mt-[10px] py-3 px-[500px] border-gray-400 border pl-[20px] bg-[#f8f8f8]'
@@ -50,7 +50,7 @@ function StayInTouchBody() {
             
             <div>
                 <label for="myCheckbox" class="flex items-center">
-                <span className="ml-[350px] text-lg" >Please confirm you would like to receive news and offers from The Hurlingham Club Events</span>
+                <span className="ml-[350px] text-lg" >Please confirm you would like to receive news and offers from The Giggles and Goggles Events</span>
                 <input type="checkbox" id="myCheckbox" name="myCheckbox" className="form-checkbox text-indigo-600 h-5 w-5 "/>
                 </label>
             </div>
