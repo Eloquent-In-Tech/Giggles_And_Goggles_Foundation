@@ -12,7 +12,7 @@ function CorporateHero() {
         <div>
             <h3 className=' text-4xl text-gray-600 mb-[40px] mt-[70px]'>CORPORATE, CHARITY & AWARDS</h3>
             <h4 className='text-gray-600 mb-[50px] ml-[250px] mr-[250px]'> 
-            The Hurlingham Club is an events and conference venue unlike any other in London. Set in 42 
+            The Giggle and Goggles foundation is an events and conference venue unlike any other in London. Set in 42 
             acres of magnificent grounds in Fulham, the Club combines traditional English charm and elegance with 
             modern venue facilities and services. The Club is one of the most sought after London venues for 
             conferences, exhibitions, award ceremonies and gala dinners as it is one of few in London that 
