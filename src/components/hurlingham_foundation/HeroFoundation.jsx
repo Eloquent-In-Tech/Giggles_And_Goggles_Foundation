@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from "../../assets/foundation/HurlingFoundation.png"
+import hero from "../../assets/giggles_logo.png"
 import FoundationNavBar from './FoundationNavBar'
 
 function HeroFoundation() {
@@ -7,10 +7,10 @@ function HeroFoundation() {
     <div>
       <FoundationNavBar/>
         <div>
-            <img src={hero} alt="..." className='h-[300px] ml-[530px] mt-[100px] mb-[40px]'/>
+            <img src={hero} alt="..." className='h-[300px] ml-[350px] mt-[100px] mb-[40px]'/>
         </div>
         <div>
-            <h3 className=' text-4xl text-gray-600 mb-[10px]'>THE GIGGLES AND GOGGLES FOUNDATION</h3>
+            <h3 className=' text-4xl text-gray-600 mb-[10px]'>THE GOGGLE AND GIGGLES FOUNDATION</h3>
             <h4 className='text-gray-600 mb-[50px]'> 
             In 2021 The Giggles and Goggles Foundation was established with support from staff, 
             members and the local community. <br /> <br />

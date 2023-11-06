@@ -1,5 +1,5 @@
 import { FoundationCardData } from "../../data/FoundationCardData"
-import logo from '../../assets/Hurlingham_logo.png'
+import logo from '../../assets/giggles_logo.png'
 
 function FoundationCard() {
   return (
@@ -53,8 +53,8 @@ function FoundationCard() {
             In addition, please keep on the lookout for future volunteering opportunities publicised through the Club.
             </h4>
         </div>
-        <div className="h-[140px] w-[140px] bg-gray-100 rounded-full absolute top-[2430px] left-[600px]">
-            <img className=" bottom-[5px] left-[200px] w-[250px]  p-[20px]" src={logo} alt="logo" />
+        <div className="h-[140px] w-[140px] bg-white border-[2px] rounded-full absolute top-[2530px] left-[600px]">
+            <img className=" bottom-[5px] left-[200px] w-[750px] h-[150px]  p-[20px]" src={logo} alt="logo" />
         </div>
     </div>
   )
