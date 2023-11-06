@@ -26,7 +26,7 @@ function TopNav() {
     }));
   };
   return (
-    <div className="flex items-center justify-between  py-2 px-6">
+    <div className="flex items-center justify-between  py-2">
       <Link to={"/"}>
         <img src={logo} alt="logo" className="h-28 w-[200px] font-semibold" />
       </Link>
@@ -72,16 +72,16 @@ function TopNav() {
         onMouseLeave={() => handleMouseLeave('contact')}
       />
     </div>
-    <div className="flex flex-col items-center ml-[100px]">
-      <span className="bg-blue-600 py-2 px-12 text-white mb-2 ml-[215px] hover:bg-blue-400 hover:cursor-pointer">
+    <div className="flex flex-col items-center ml-[30px]">
+      <span className="bg-blue-600 py-2 px-8 text-white mb-2 ml-[150px] hover:bg-blue-400 hover:cursor-pointer">
         Login
       </span>
       <input
         type="text"
         placeholder="Search"
-        className="bg-slate-300 py-2 px-[100px] ml-[50px] text-black font-medium placeholder-black pl-[20px]"
+        className="bg-slate-300 py-2 px-[70px] ml-[10px] text-black font-medium placeholder-black pl-[5px]"
       />
-      <FontAwesomeIcon icon={faSearch} className="absolute right-10 top-[73px] h-[17px] text-gray-400" />
+      <FontAwesomeIcon icon={faSearch} className="absolute right-[20px] top-[79px] h-[17px] text-gray-400" />
     </div>
   </div>
 );

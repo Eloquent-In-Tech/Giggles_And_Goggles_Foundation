@@ -14,7 +14,7 @@ export const AboutData = [
     {
         title: "THE  FOUNDATION",
         link: "/the-hurlingham-foundation",
-        image: "../src/assets/about/foundation.jpg",
+        image: "../src/assets/giggles_logo.png",
         view: "VIEW"
     }
 ]
