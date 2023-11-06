@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../../assets/Hurlingham_logo.png'
+import logo from '../../assets/giggles_logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom'; 
@@ -28,7 +28,7 @@ function TopNav() {
   return (
     <div className="flex items-center justify-between  py-2 px-6">
       <Link to={"/"}>
-        <img src={logo} alt="logo" className="h-24 w-24 font-semibold" />
+        <img src={logo} alt="logo" className="h-28 w-[200px] font-semibold" />
       </Link>
     <div className="flex items-center space-x-[200px] ml-[50px]">
       <MenuItem 
@@ -36,8 +36,8 @@ function TopNav() {
         mainMenuLink="/about"
         subMenuLinks={[
           { label: 'SUSTAINABILITY', url: '/sustainability' },
-          { label: 'SAFEGUARDING GIGGLES AND GOGGLES', url: '/safeguarding-hurlingham' },
-          { label: 'THE GIGGLES AND GOGGLES FOUNDATION', url: '/the-hurlingham-foundation' },
+          { label: 'SAFEGUARDING GOGGLE AND GIGGLE', url: '/safeguarding-hurlingham' },
+          { label: 'THE GOGGLE AND GIGGLE FOUNDATION', url: '/the-hurlingham-foundation' },
         ]}
         menuState={menuStates.about}
         onMouseEnter={() => handleMouseEnter('about')}

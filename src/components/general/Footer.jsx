@@ -44,10 +44,10 @@ function Footer() {
             </div> */}
             <div className="flex flex-row space-x-[35px] text-gray-600 mt-[30px] ml-[20px] ">
                 <div className="space-x-[5px] ml-[55px] ">
-                    <a href="/about"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">ABOUT GIGGLES AND GOOGLES</ul></a>
+                    <a href="/about"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">ABOUT GOGGLE AND GIGGLE</ul></a>
                     <a href="/sustainability"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">SUSTAINABILITY</ul></a>
                     <a href="/safeguarding-hurlingham"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">SAFEGUARDING</ul></a>
-                    <a href="/the-hurlingham-foundation"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">THE GIGGLES AND GOGGLES <br />FOUNDATION</ul></a>
+                    <a href="/the-hurlingham-foundation"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">THE GOGGLE AND GIGGLE <br />FOUNDATION</ul></a>
                 </div>
                 <div className="">
                     <a href="/events"><ul className="hover:text-blue-400 hover:cursor-pointer hover:underline">PRIVATE EVENTS</ul></a>
@@ -66,7 +66,7 @@ function Footer() {
             </div>
             <div>
                 <h1 className="text-gray-600 mt-[90px]">
-                THE GIGGLES AND GOGGLES FOUNDATION, RANELAGH GARDENS, LONDON, SW6 3PR | MAIN RECEPTION: 020 7610 7400 | 
+                THE GOGGLE AND GIGGLE FOUNDATION, RANELAGH GARDENS, LONDON, SW6 3PR | MAIN RECEPTION: 020 7610 7400 | 
                 MEMBERSHIP OFFICE: 020 7610 7467 | SPORTS OFFICE: 020 7610 7500 | FITNESS CENTRE RECEPTION: 
                 020 7610 7483 | FOOD AND BEVERAGE QUERIES AND BOOKINGS: 020 7610 7518 | EVENTS: 020 7610 7526
                 </h1>

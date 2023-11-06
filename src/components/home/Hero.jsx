@@ -1,6 +1,6 @@
 import React from 'react'
 import hero from '../../assets/hurlingham2.jpg'
-import logo from '../../assets/Hurlingham_logo.png'
+import logo from '../../assets/giggles_logo.png'
 
 
 
@@ -12,9 +12,9 @@ function HomeHero() {
 
             <div className='w-[1000px] ml-[150px]'>            
                 <h2 className=' text-4xl mt-[100px] text-slate-700'>
-                GIGGLES AND GOGGLES FOUNDATION</h2>
+                GOGGLE AND GIGGLE FOUNDATION</h2>
                 <h3 className=' text-center text-xl mt-[20px] text-slate-700'>
-                The Giggles and Goggles Foundation is a green oasis of tradition and international renown bordering the River 
+                The Goggle and Giggle Foundation is a green oasis of tradition and international renown bordering the River 
                 Thames in Fulham set in 42 acres of magnificent grounds.
                 </h3> 
                 <h3 className=' text-center text-xl mt-[20px] text-slate-700'> 
@@ -25,8 +25,8 @@ function HomeHero() {
             </div>
             
         </div>
-        <div className="h-[140px] w-[140px] bg-gray-100 rounded-full absolute top-[1330px] left-[600px]">
-            <img className=" bottom-[5px] left-[200px] w-[250px]  p-[20px]" src={logo} alt="logo" />
+        <div className="h-[140px] w-[140px] bg-white rounded-full absolute border-[2px] top-[1350px] left-[600px]">
+            <img className=" bottom-[50px] left-[200px] w-[750px] h-[150px]  p-[20px]" src={logo} alt="logo" />
         </div>
     </div>
   )
