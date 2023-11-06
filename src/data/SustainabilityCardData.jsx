@@ -1,12 +1,12 @@
 export const SustainabilityCardData = [
     {
-        title: "SUSTAINABILITY AT GIGGLES AND GOGGLES  ",
+        title: "SUSTAINABILITY AT GOGGLE AND GIGGLES  ",
         link: "sustainability-at-hurlingham",
         image: "../src/assets/sustainability/cardSustainability.jpg",
         view: "VIEW"
     },
     {
-        title: "ENVIRONMENTAL GIGGLES AND GOGGLES",
+        title: "ENVIRONMENTAL GOGGLE AND GIGGLES",
         link: "environmental-hurlingham#",
         image: "../src/assets/sustainability/cardSustainability2.jpg",
         view: "VIEW"
