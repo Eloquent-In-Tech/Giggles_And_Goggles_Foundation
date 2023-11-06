@@ -1,6 +1,6 @@
 import React from 'react'
 import { WeddingPictures } from '../../data/WeddingData'
-import logo from '../../assets/Hurlingham_logo.png'
+import logo from '../../assets/giggles_logo.png'
 import photo from "../../assets/weddings/weddingPhotos.png"
 
 
@@ -23,8 +23,8 @@ function PhotoPanel() {
     <div className='flex justify-center mb-[200px]'>
         <img src={photo} alt="" className='w-[980px]  ' />
 
-        <div className="h-[140px] w-[140px] bg-gray-100 rounded-full absolute top-[3465px] left-[600px]">
-            <img className=" bottom-[5px] left-[200px] w-[250px]  p-[20px]" src={logo} alt="logo" />
+        <div className="h-[140px] w-[140px] bg-white rounded-full border-[2px] absolute top-[3585px] left-[600px]">
+            <img className=" bottom-[5px] left-[200px] w-[750px] h-[150px]  p-[20px]" src={logo} alt="logo" />
         </div>
     </div>
 

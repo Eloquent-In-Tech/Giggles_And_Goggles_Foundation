@@ -15,7 +15,7 @@ function HeroWedding() {
         <div>
             <h3 className=' text-4xl text-gray-600 mb-[10px]'>WEDDINGS</h3>
             <h4 className='text-gray-600 mb-[50px] ml-[250px] mr-[250px]'> 
-            The Giggle and Goggle Club’s exquisite wedding venue space can accommodate up to 800 guests and can be
+            The Goggle and Giggles Club’s exquisite wedding venue space can accommodate up to 800 guests and can be
             booked by both non-members and members. <br /> <br />
             One of the most exclusive private members’ clubs in the world, the Club’s sprawling grounds 
             overlooking the River Thames, landscaped gardens and white Georgian Clubhouse provide a stunning
