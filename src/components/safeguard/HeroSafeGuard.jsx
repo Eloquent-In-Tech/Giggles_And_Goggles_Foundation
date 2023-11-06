@@ -1,6 +1,6 @@
 import React from 'react'
 import safeGuard from "../../assets/safeGuard/HeroSafeGuard.jpg"
-import logo from '../../assets/Hurlingham_logo.png'
+import logo from '../../assets/giggles_logo.png'
 import SafeGuardNavBar from './SafeGuardNavBar'
 
 function HeroSafeGuard() {
@@ -14,7 +14,7 @@ function HeroSafeGuard() {
                 <h2 className=' text-3xl mt-[30px] text-slate-700'>
                 SAFEGUARDING</h2>
                 <h3 className=' text-lg text-left mt-[20px] text-slate-700'>
-                The Giggles and Goggles Foundation is committed to prioritising the well-being of all children and young 
+                The Goggle and Giggles Foundation is committed to prioritising the well-being of all children and young 
                 people at risk by promoting safeguarding at all times, including sporting and social events
                 as well as the Hurlingham Crèche. The Club strives to minimise risk, deliver a safe and fun 
                 experience for everyone, and respond appropriately to all safeguarding concerns/disclosures. <br /> <br />
@@ -39,7 +39,7 @@ function HeroSafeGuard() {
                 are non-professional ‘helpers’ and will usually be members of the Club. 
                 </h3> 
                 <h2 className=' text-3xl mt-[30px] text-slate-700'>
-                GIGGLES AND GOGGLES FOUNDATION PROCEDURES</h2>
+                GOGGLES AND GIGGLES FOUNDATION PROCEDURES</h2>
                 <h3 className=' text-left text-lg mt-[20px] text-slate-700'> 
                 Disclosure and Barring Service (DBS) Checks <br /> <br />
                 As an organisation using the DBS to assess applicants’ suitability for positions of trust, 
@@ -110,8 +110,8 @@ function HeroSafeGuard() {
                 
             </div>
             
-            <div className="h-[140px] w-[140px] bg-gray-100 rounded-full absolute top-[3080px] left-[600px]">
-              <img className=" bottom-[5px] left-[200px] w-[250px]  p-[20px]" src={logo} alt="logo" />
+            <div className="h-[140px] w-[140px] bg-white border-[2px] rounded-full absolute top-[3110px] left-[600px]">
+              <img className=" bottom-[5px] left-[200px] w-[750px] h-[150px]  p-[20px]" src={logo} alt="logo" />
             </div>
         </div>
         
