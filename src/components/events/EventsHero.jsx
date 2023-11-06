@@ -14,7 +14,7 @@ function EventsHero() {
             <h4 className='text-gray-600 mb-[50px] ml-[250px] mr-[250px]'> 
             A hidden gem… a quintessentially British venue in the heart of London. <br /> <br />
             Set in 42 acres of landscaped grounds, with an elegant Georgian-style Clubhouse and south-facing 
-            terraces overlooking the River Thames, The Hurlingham Club is one of the world's most exclusive 
+            terraces overlooking the River Thames, The Goggle and Giggles Foundation is one of the world's most exclusive 
             private members' clubs. <br className='mb-[15px]'/> 
             The Club is available for private hire to members and non-members for all types of events, from small
             meetings to large conferences, intimate weddings to elaborate charity galas and award ceremonies. 

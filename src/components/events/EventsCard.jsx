@@ -1,6 +1,6 @@
 import React from 'react'
 import { EventsData } from '../../data/EventsData'
-import logo from "../../assets/Hurlingham_logo.png"
+import logo from "../../assets/giggles_logo.png"
 import awards from "../../assets/weddings/awards.png"
 
 
@@ -25,8 +25,8 @@ function EventsCard() {
                 <img src={awards} alt="..." className=' h-[300px]  mb-[230px]' />
         </div>
 
-        <div className="h-[140px] w-[140px] bg-gray-100 rounded-full absolute top-[2135px] left-[600px]">
-            <img className=" bottom-[5px] left-[200px] w-[250px]  p-[20px]" src={logo} alt="logo" />
+        <div className="h-[140px] w-[140px] bg-white border-[2px] rounded-full absolute top-[2205px] left-[600px]">
+            <img className=" bottom-[5px] left-[200px] w-[750px] h-[150px]  p-[20px]" src={logo} alt="logo" />
         </div>
     </div>
     )
