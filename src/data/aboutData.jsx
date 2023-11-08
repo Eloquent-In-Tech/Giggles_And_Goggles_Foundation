@@ -1,7 +1,7 @@
 export const AboutData = [
     {
         title: "EDUCATION",
-        link: "/sustainability",
+        link: "/education",
         image: "../src/assets/Swim/coach.jpg",
         view: "VIEW"
     },
