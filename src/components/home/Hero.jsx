@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from '../../assets/hurlingham2.jpg'
+import hero from '../../assets/Swim/groupSwim.jpg'
 import logo from '../../assets/giggles_logo.png'
 
 

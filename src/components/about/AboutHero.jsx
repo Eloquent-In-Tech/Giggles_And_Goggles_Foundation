@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from "../../assets/about/AboutHero.jpg"
+import hero from "../../assets/Swim/about1.jpg"
 import AboutNavBar from './AboutNavBar'
 
 function AboutHero() {
@@ -13,13 +13,11 @@ function AboutHero() {
                 <h2 className=' text-4xl mt-[100px] text-slate-700'>
                 WELCOME TO THE GOGGLE AND GIGGLES FOUNDATION</h2>
                 <h3 className=' text-center text-xl mt-[20px] text-slate-700'>
-                The Goggle and Giggles Foundation is a green oasis of tradition and international renown bordering the River 
-                Thames in Fulham set in 42 acres of magnificent grounds.
+                The Goggle and Giggles Foundation is a non-profit organisation, set up to diversify the world of aquatics 
+                through EDUCATION, ADVOCACY, SUPPORT & RESEARCH.
                 </h3> 
-                <h3 className=' text-center text-xl mt-[20px] text-slate-700'> 
-                Since the Foundation opened in 1869, it has offered some of the finest sports and social facilities to
-                its members. The Club has many spaces and areas for hire to non-members and guests. Details on 
-                how to do so and other useful information can be found on these pages.
+                <h3 className=' text-center text-xl mt-[20px] text-slate-700'> WE HAVE A MISSION TO DIVERSIFY THE WORLD OF AQUATICS
+
                 </h3>
             </div>
             

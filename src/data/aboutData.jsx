@@ -1,20 +1,20 @@
 export const AboutData = [
     {
-        title: "SUSTAINABILITY",
+        title: "EDUCATION",
         link: "/sustainability",
-        image: "../src/assets/about/safeguard.jpg",
+        image: "../src/assets/Swim/coach.jpg",
         view: "VIEW"
     },
     {
-        title: "SAFEGUARDING",
+        title: "ADVOCACY",
         link: "/safeguarding-hurlingham",
-        image: "../src/assets/about/sustain.jpg",
+        image: "../src/assets/Swim/advo1.jpg",
         view: "VIEW"
     },
     {
-        title: "THE  FOUNDATION",
+        title: "SUPPORT AND RESEARCH",
         link: "/the-hurlingham-foundation",
-        image: "../src/assets/giggles_logo.png",
+        image: "../src/assets/Swim/support.jpg",
         view: "VIEW"
     }
 ]

@@ -44,7 +44,7 @@ function TopNav() {
         onMouseLeave={() => handleMouseLeave('about')}
       />
       <MenuItem
-        label="EVENTS"
+        label="NEWS"
         mainMenuLink="/events"
         subMenuLinks={[
           { label: 'WEDDINGS', url: '/weddings' },

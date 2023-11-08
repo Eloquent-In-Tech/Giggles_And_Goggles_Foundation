@@ -1,26 +1,26 @@
 export const HomeCardData = [
     {
         title: "ABOUT",
-        link: "about#",
-        image: "../src/assets/cardPhotos/about.jpeg",
+        link: "/about",
+        image: "../src/assets/Swim/about.jpg",
         view: "VIEW"
     },
     {
-        title: "EVENTS",
-        link: "events#",
-        image: "../src/assets/cardPhotos/events.png",
+        title: "NEWS",
+        link: "/news",
+        image: "../src/assets/Swim/news1.jpg",
         view: "VIEW"
     },
     {
-        title: "CLEAN AIR NEIGHBOURHOOD",
-        link: "cleanair#",
-        image: "../src/assets/cardPhotos/cleanAir.jpeg",
+        title: "PARTNERS",
+        link: "/partners",
+        image: "../src/assets/Swim/partnership1.jpg",
         view: "VIEW"
     },
     {
-        title: "CONTACT",
-        link: "contact#",
-        image: "../src/assets/cardPhotos/contact.jpg",
+        title: "TRAINING",
+        link: "/training",
+        image: "../src/assets/Swim/teaching-kids-swim.jpg",
         view: "CONTACT"
     }
 ]
