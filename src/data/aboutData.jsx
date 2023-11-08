@@ -7,7 +7,7 @@ export const AboutData = [
     },
     {
         title: "ADVOCACY",
-        link: "/safeguarding-hurlingham",
+        link: "/advocacy",
         image: "../src/assets/Swim/advo1.jpg",
         view: "VIEW"
     },

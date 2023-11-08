@@ -1,7 +1,7 @@
 
 import { SustainabilityCardData } from "../../data/SustainabilityCardData"
 
-function CardSustainability() {
+function CardEducation() {
   return (
     <div className='flex flex-col-4 space-x-[50px] pt-[20px] ml-[420px] mb-[200px]'>
         {SustainabilityCardData.map((data, index)=>{
@@ -19,4 +19,4 @@ function CardSustainability() {
   )
 }
 
-export default CardSustainability
+export default CardEducation

@@ -2,14 +2,14 @@ import React from 'react'
 import TopNav from '../components/general/topNav'
 import Footer from '../components/general/Footer'
 import SustainabilityHero from '../components/education/Hero'
-import CardSustainability from '../components/education/SustainCard'
+import CardEducation from '../components/education/EducateCard'
 
 function Sustainability() {
   return (
     <div>
         <TopNav/>
         <SustainabilityHero/>
-        <CardSustainability/>
+        <CardEducation/>
         <Footer/>
     </div>
   )

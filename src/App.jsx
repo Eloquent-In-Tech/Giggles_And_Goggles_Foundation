@@ -34,7 +34,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/education" element={<Sustainability/>} />
-      <Route path="/safeguarding-hurlingham" element={<SafeGuarding/>} />
+      <Route path="/advocacy" element={<SafeGuarding/>} />
       <Route path="/the-hurlingham-foundation" element={<HurlinghamFoundation/>} />
       <Route path="/weddings" element={<Weddings/>} />
       <Route path="/corporate-charity-and-awards" element={<Corporate/>} />

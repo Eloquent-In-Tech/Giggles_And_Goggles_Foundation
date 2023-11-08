@@ -1,7 +1,7 @@
 import React from 'react'
 import heroEducation from "../../assets/Swim/coach.jpg"
 import logo from '../../assets/giggles_logo.png'
-import SustainNavBar from './SustainNavBar'
+import SustainNavBar from './EducationNavBar'
 
 function SustainabilityHero() {
   return (
