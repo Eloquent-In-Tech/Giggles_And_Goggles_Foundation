@@ -7,7 +7,7 @@ function FoundationNavBar() {
             <a href="/"><span className='mr-[10px] hover:underline hover:cursor-pointer'>HOME</span></a>
             <a href="/"><span className='mr-[10px] hover:underline hover:cursor-pointer'>  / GOGGLE AND GIGGLES HOME</span></a> 
             <a href="/about"><span className='mr-[10px] hover:underline hover:cursor-pointer'>   / ABOUT GOGGLE AND GIGGLES</span></a>
-            <span className='text-gray-400'> / THE GOGGLE AND GIGGLES FOUNDATION </span>
+            <span className='text-gray-400'> / SUPPORT AND RESEARCH </span>
               
         </h1>
     </div>

@@ -22,7 +22,7 @@ function HeroSafeGuard() {
                 </h3>
 
                 <h2 className=' text-3xl mt-[30px] text-slate-700'>
-                WHO TO CONTACT</h2>
+                CONTACT US TO JOIN THE ADVOCACY</h2>
                 <h3 className=' text-left text-lg mt-[20px] text-slate-700'> 
                 If you have any concerns about poor practice or suspected abuse, please contact the Designated
                 Safeguarding Officer in the first instance. This is Victoria Harris, Deputy Secretary 
