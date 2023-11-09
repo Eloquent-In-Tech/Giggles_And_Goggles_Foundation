@@ -64,7 +64,7 @@ function TopNav() {
         mainMenuLink="/contact-us"
         subMenuLinks={[
           { label: 'SHARE YOUR THOUGHTS', url: '/private-events-form' },
-          { label: 'CLEAN AIR NEIGHBOURHOOD PROGRAMME', url: '/clean-air-neighbourhood-programme' },
+          { label: 'DONATE', url: '/clean-air-neighbourhood-programme' },
         ]}
          menuState={menuStates.contact}
         onMouseEnter={() => handleMouseEnter('contact')}

@@ -10,12 +10,9 @@ function PrivateEventBody() {
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
     const [surname, setSurname] = useState('');
-    const [companyName, setCompanyName] = useState('');
     const [phone, setPhone] = useState('');
-    const [guests, setGuests] = useState('');
     const [enquiry, setEnquiry] = useState('');
-    const [date, setDate] = useState('');
-
+    
     const navigate = useNavigate();
 
 
