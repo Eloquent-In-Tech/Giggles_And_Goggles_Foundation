@@ -51,7 +51,6 @@ function TopNav() {
           { label: 'CORPORATE, CHARITY & AWARDS', url: '/corporate-charity-and-awards' },
           { label: 'CHRISTMAS', url: '/christmas' },
           { label: 'SUMMER', url: '/summer' },
-          { label: 'PRIVATE EVENTS FORM', url: '/private-events-form' },
           { label: 'FREQUENTLY ASKED QUESTION', url: '/frequently-asked-questions' },
           { label: 'ROOMS', url: '/rooms' },
           { label: 'STAY IN TOUCH', url: '/stay-in-touch' },
@@ -64,7 +63,7 @@ function TopNav() {
         label="CONTACT US"
         mainMenuLink="/contact-us"
         subMenuLinks={[
-          { label: 'MAP & DIRECTIONS', url: '/hurlingham-maps-and-directions' },
+          { label: 'SHARE YOUR THOUGHTS', url: '/private-events-form' },
           { label: 'CLEAN AIR NEIGHBOURHOOD PROGRAMME', url: '/clean-air-neighbourhood-programme' },
         ]}
          menuState={menuStates.contact}
