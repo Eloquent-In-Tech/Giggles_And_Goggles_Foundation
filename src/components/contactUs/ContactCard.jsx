@@ -21,7 +21,7 @@ function ContactCard() {
             
             
         </div>
-        <div className="h-[140px] w-[140px] bg-gray-100 rounded-full absolute top-[1445px] left-[600px]">
+        <div className="h-[140px] w-[140px] bg-gray-100 rounded-full absolute top-[1645px] left-[600px]">
             <img className=" bottom-[5px] left-[200px] w-[250px]  p-[20px]" src={logo} alt="logo" />
         </div>
     </div>
