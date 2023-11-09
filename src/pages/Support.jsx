@@ -4,7 +4,7 @@ import Footer from '../components/general/Footer'
 import HeroFoundation from '../components/support_research/HeroSupport'
 import FoundationCard from '../components/support_research/SupportCard'
 
-function HurlinghamFoundation() {
+function Support() {
   return (
     <div>
        <TopNav/>
@@ -15,4 +15,4 @@ function HurlinghamFoundation() {
   )
 }
 
-export default HurlinghamFoundation
+export default Support

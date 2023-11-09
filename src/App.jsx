@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Sustainability from './pages/Sustainability';
 import SafeGuarding from './pages/SafeGuarding';
-import HurlinghamFoundation from './pages/HurlinghamFoundation';
+import HurlinghamFoundation from './pages/Support';
 import Weddings from './pages/Weddings';
 import Corporate from './pages/Corporate';
 import Christmas from './pages/Christmas';
@@ -26,6 +26,8 @@ import EnvironmentalHurlingham from './pages/EnvironmentalHurlingham';
 import RegisterInterest from './pages/RegisterInterest';
 import VisionsAndVaues from './pages/VisionsAndVaues';
 import PrivacyNotice from './pages/PrivacyNotice';
+import SupportCard from './components/support_research/SupportCard';
+import Support from './pages/Support';
 
 function App() {
   return (
@@ -35,7 +37,7 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route path="/education" element={<Sustainability/>} />
       <Route path="/advocacy" element={<SafeGuarding/>} />
-      <Route path="/the-hurlingham-foundation" element={<HurlinghamFoundation/>} />
+      <Route path="/support" element={<Support/>} />
       <Route path="/weddings" element={<Weddings/>} />
       <Route path="/corporate-charity-and-awards" element={<Corporate/>} />
       <Route path="/christmas" element={<Christmas/>} />

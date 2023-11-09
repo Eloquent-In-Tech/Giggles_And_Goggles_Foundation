@@ -35,9 +35,9 @@ function TopNav() {
         label="ABOUT"
         mainMenuLink="/about"
         subMenuLinks={[
-          { label: 'SUSTAINABILITY', url: '/sustainability' },
-          { label: 'SAFEGUARDING GOGGLE AND GIGGLE', url: '/safeguarding-hurlingham' },
-          { label: 'THE GOGGLE AND GIGGLE FOUNDATION', url: '/the-hurlingham-foundation' },
+          { label: 'EDUCATION', url: '/education' },
+          { label: 'ADVOCACY', url: '/advocacy' },
+          { label: 'SUPPORT & RESEARCH', url: '/support' },
         ]}
         menuState={menuStates.about}
         onMouseEnter={() => handleMouseEnter('about')}

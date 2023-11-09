@@ -13,7 +13,7 @@ export const AboutData = [
     },
     {
         title: "SUPPORT AND RESEARCH",
-        link: "/the-hurlingham-foundation",
+        link: "/support",
         image: "../src/assets/Swim/support.jpg",
         view: "VIEW"
     }
