@@ -1,8 +1,4 @@
 import { footerData } from "../../data/FooterData"
-import { footerAboutDetails } from "../../data/FooterData"
-import { footerEventsDetails } from "../../data/FooterData"
-import logo from "../../assets/hurlingham_logo.png"
-
 
 function Footer() {
     return (
