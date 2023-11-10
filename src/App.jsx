@@ -7,7 +7,7 @@ import Sustainability from './pages/Sustainability';
 import SafeGuarding from './pages/SafeGuarding';
 import HurlinghamFoundation from './pages/Support';
 import Weddings from './pages/Weddings';
-import Corporate from './pages/Corporate';
+import Foundation from './pages/Fpoundation';
 import Christmas from './pages/Christmas';
 import Summer from './pages/Summer';
 import Faq from './pages/Faq';
@@ -35,11 +35,11 @@ function App() {
       <Router>
     <Routes>
       <Route path="/" element={<Home/>} />
-      <Route path="/education" element={<Sustainability/>} />
+      <Route path="/training" element={<Sustainability/>} />
       <Route path="/advocacy" element={<SafeGuarding/>} />
       <Route path="/support" element={<Support/>} />
       <Route path="/weddings" element={<Weddings/>} />
-      <Route path="/corporate-charity-and-awards" element={<Corporate/>} />
+      <Route path="/foundation" element={<Foundation/>} />
       <Route path="/christmas" element={<Christmas/>} />
       <Route path="/summer" element={<Summer/>} />
       <Route path="/frequently-asked-questions" element={<Faq/>} />
@@ -49,7 +49,7 @@ function App() {
       <Route path="/hurlingham-maps-and-directions" element={<MapsAndDirection/>} />
       <Route path="/donate" element={<CleanAirProgramme/>} />
       <Route path="/about" element={<About/>} />
-      <Route path="/events" element={<Events/>} />
+      <Route path="/news" element={<Events/>} />
       <Route path="/contact-us" element={<ContactUs/>} />
       <Route path="/career" element={<Career/>} />
       <Route path="/partners" element={<TermsOfUse/>} />

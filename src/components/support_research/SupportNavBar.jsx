@@ -1,6 +1,6 @@
 import React from 'react'
 
-function FoundationNavBar() {
+function SupportNavBar() {
   return (
     <div className='bg-gray-50 h-[80px]'>
         <h1 className='pt-[15px] pr-[400px] text-gray-600'>
@@ -14,4 +14,4 @@ function FoundationNavBar() {
   )
 }
 
-export default FoundationNavBar
+export default SupportNavBar

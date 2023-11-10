@@ -1,21 +1,19 @@
 import React from 'react'
 import TopNav from '../components/general/topNav'
 import Footer from '../components/general/Footer'
-import CorporateHero from '../components/corporate/CorporateHero'
+import FoundationHero from '../components/the-foundation/FoundationHero'
 import WeddingCard from '../components/weddings/WeddingCard'
-import PhotoPanel from '../components/corporate/CorporatePhotoPanel'
+import PhotoPanel from '../components/the-foundation/CorporatePhotoPanel'
 
-function Corporate() {
+function Foundation() {
   return (
     <div>
         <TopNav/>
-        <CorporateHero/>
-        <WeddingCard/>
-        <PhotoPanel/>
+        <FoundationHero/>
         <Footer/>
         
     </div>
   )
 }
 
-export default Corporate
+export default Foundation

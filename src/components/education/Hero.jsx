@@ -12,7 +12,7 @@ function SustainabilityHero() {
 
             <div className='w-[1000px] ml-[150px]'>            
                 <h2 className=' text-4xl mt-[50px] text-slate-700'>
-                EDUCATION</h2>
+                TRAINING</h2>
                 <h3 className=' text-center text-xl mt-[5px] text-slate-700'>
                 The Foundation works with partners across the aquatic sector, to raise awareness towards the 
                 importance of water safety and the health benefits of aquatic activities, within our communities. 

@@ -1,11 +1,11 @@
 import React from 'react'
 import hero from "../../assets/Swim/support.jpg"
-import FoundationNavBar from './SupportNavBar'
+import SupportNavBar from './SupportNavBar'
 
 function HeroFoundation() {
   return (
     <div>
-      <FoundationNavBar/>
+      <SupportNavBar/>
         <div>
             <img src={hero} alt="..." className='h-[500px] w-full ml-[0px] mb-[40px]'/>
         </div>

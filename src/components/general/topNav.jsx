@@ -35,7 +35,7 @@ function TopNav() {
         label="ABOUT"
         mainMenuLink="/about"
         subMenuLinks={[
-          { label: 'EDUCATION', url: '/education' },
+          { label: 'TRAINING', url: '/training' },
           { label: 'ADVOCACY', url: '/advocacy' },
           { label: 'SUPPORT & RESEARCH', url: '/support' },
         ]}
@@ -45,15 +45,9 @@ function TopNav() {
       />
       <MenuItem
         label="NEWS"
-        mainMenuLink="/events"
+        mainMenuLink="/news"
         subMenuLinks={[
-          { label: 'WEDDINGS', url: '/weddings' },
-          { label: 'CORPORATE, CHARITY & AWARDS', url: '/corporate-charity-and-awards' },
-          { label: 'CHRISTMAS', url: '/christmas' },
-          { label: 'SUMMER', url: '/summer' },
-          { label: 'FREQUENTLY ASKED QUESTION', url: '/frequently-asked-questions' },
-          { label: 'ROOMS', url: '/rooms' },
-          { label: 'STAY IN TOUCH', url: '/stay-in-touch' },
+          { label: 'THE FOUNDATION', url: '/foundation' },
         ]}
         menuState={menuStates.events}
         onMouseEnter={() => handleMouseEnter('events')}
