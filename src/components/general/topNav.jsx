@@ -64,7 +64,8 @@ function TopNav() {
         mainMenuLink="/contact-us"
         subMenuLinks={[
           { label: 'SHARE YOUR THOUGHTS', url: '/private-events-form' },
-          { label: 'DONATE', url: '/clean-air-neighbourhood-programme' },
+          { label: 'DONATE', url: '/donate' },
+          { label: 'PARTNERS', url: '/partners' },
         ]}
          menuState={menuStates.contact}
         onMouseEnter={() => handleMouseEnter('contact')}

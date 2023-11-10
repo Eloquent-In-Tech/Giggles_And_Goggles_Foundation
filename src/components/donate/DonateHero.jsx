@@ -8,16 +8,18 @@ function CleanAirHero() {
       <div className='text-gray-600'>
         <DonateNavBar/>
           <div>
-              <img src={hero} alt="..." className='h-[450px] w-full  mb-[40px]'/>
+              <img src={hero} alt="..." className='h-[450px] w-full '/>
           </div>
-        <div>
-            <h3 className=' text-6xl text-blue-600 font-bold mb-[20px] mt-[70px] tracking-widest'>HELP SUPPORT OUR WORK</h3>
+        <div className='bg-blue-400 pt-[50px] pb-[50px]'>
+          
+            <h3 className=' text-6xl text-blue-600 font-bold mb-[20px] tracking-widest'>HELP SUPPORT OUR WORK</h3>
             <h4 className='text-green-600 mb-[50px]  font-bold ml-[350px] mr-[250px] text-justify'>
               YOUR GENEROUS DONATION CAN HELP US REACH SO MANY & SUPPORT OUR EFFORTS 
               </h4>
               <div >
-                    <div className='bg-blue-400 ml-[500px] mr-[500px]'>
-                        <h3 className=''> <span>REASONS TO DONATE</span>   <br />   
+                <h3 className=''> <span>REASONS TO DONATE</span>   <br />  </h3>
+                    <div className=' ml-[500px] mr-[500px]'>
+                         <h3>
                             Thank you for choosing to donate to the BSA. Your funding will help us reach our mission in
                             working towards a future with ethnic diversity in aquatics and spreading water safety knowledge 
                             and education to African, Caribbean and Asian communities.
